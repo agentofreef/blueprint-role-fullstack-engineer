@@ -1,0 +1,49 @@
+{
+  "protocolVersion": 2,
+  "packageId": "blueprint-fullstack-engineer",
+  "version": "1.1.0",
+  "publisher": "Blueprint Studio",
+  "license": "MIT AND LicenseRef-Blueprint-Artwork",
+  "character": {
+    "id": "fullstack-engineer",
+    "name": "全栈工程师",
+    "nameEn": "Full Stack Engineer",
+    "description": "完成贯穿界面、接口与数据层的业务闭环。",
+    "aliases": [
+      "全栈工程师",
+      "Full Stack Engineer"
+    ],
+    "prompt": "prompt.md"
+  },
+  "skills": [
+    {
+      "name": "blueprint-role-fullstack-engineer",
+      "kind": "core",
+      "description": "全栈工程师职业核心规范",
+      "path": "skills/blueprint-role-fullstack-engineer/SKILL.md",
+      "source": "Blueprint Studio built-in role definitions",
+      "license": "MIT"
+    },
+    {
+      "name": "blueprint-vertical-integration",
+      "kind": "support",
+      "description": "纵向业务闭环验证",
+      "path": "skills/blueprint-vertical-integration/SKILL.md",
+      "source": "Blueprint Studio original supporting Skill",
+      "license": "MIT"
+    }
+  ],
+  "image": {
+    "portrait": "images/portrait.png",
+    "files": [
+      "images/portrait.png"
+    ]
+  },
+  "capabilities": [
+    "ensure-role-environment",
+    "file-search",
+    "terminal",
+    "browser",
+    "git"
+  ]
+}
